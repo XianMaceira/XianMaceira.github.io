@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
+body{
+    font-family: 'Noticia Text', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    }
+    
+    header {
+    background-color: red;
+    padding: 20px;
+    position: relative;
+    
+    }
+
+    header ul{
+    font-size: 2rem;
+    padding: 20px;
+    }
+    
+    h1 {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    nav li {
+    margin: 0 10px;
+    }
+    
+    nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    }
+    
+    main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    }
+    .columna-izquierda {
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+    
+    .columna-central {
+    background-color: #fff;
+    padding: 20px;
+    }
+    
+    .columna-derecha {
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+    .fecha {
+        font-size: 0.7rem;
+        color: #ff0000;
+    }
+    h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    
+    article {
+    margin-bottom: 20px;
+    }
+    
+    article h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    
+    article p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    }
+    
+    footer {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    }
+    #btn-top {
+        display: block;
+        position: fixed;
+        bottom: 50px;
+        right: 50%;
+        transform: translateX(50%);
+        margin: 20px;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    #btn-top:hover {
+        background-color: #ff0000;
+        transition: 0,5s;
+    }
+    a.active, a:hover{
+        background:white;
+        transition:0.5s;
+        border-radius:5px;
+      }
+      
